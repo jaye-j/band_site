@@ -3,7 +3,7 @@
         {
             "albumName": "Is This It",
             "releaseDate": "July 30, 2001",
-            "coverImage": "../public/images/Is_This_It.jpg",
+            "coverImage": "Is_This_It.jpg",
             "songList": [
                 "Is This It",
                 "The Modern Age",
@@ -21,7 +21,7 @@
         },{
             "albumName": "Room on Fire",
             "releaseDate": "October 28, 2003",
-            "coverImage": "../public/images/Room_On_Fire.jpg",
+            "coverImage": "Room_On_Fire.jpg",
             "songList": [
                 "What Ever Happened?",
                 "Reptilia",
@@ -39,7 +39,7 @@
         },{
             "albumName": "First Impressions of Earth",
             "releaseDate": "January 3, 2006",
-            "coverImage": "../public/images/First_Impressions_Of_Earth.jpg",
+            "coverImage": "First_Impressions_Of_Earth.jpg",
             "songList": [
                 "You Only Live Once",
                 "Juicebox",
@@ -60,7 +60,7 @@
         },{
             "albumName": "Angles",
             "releaseDate": "March 18, 2011",
-            "coverImage": "../public/images/Angels.jpg",
+            "coverImage": "Angels.jpg",
             "songList": [
                 "Machu Picchu",
                 "Under Cover of Darkness",
@@ -77,7 +77,7 @@
         },{
             "albumName": "Comedown Machine",
             "releaseDate": "March 26, 2013",
-            "coverImage": "../public/images/Comedown_Machine.jpg",
+            "coverImage": "Comedown_Machine.jpg",
             "songList": [
                 "Tap Out",
                 "All the Time",
@@ -95,7 +95,7 @@
         },{
             "albumName": "The New Abnormal",
             "releaseDate": "April 10, 2020",
-            "coverImage": "../public/images/The_New_Abnormal.jpg",
+            "coverImage": "The_New_Abnormal.jpg",
             "songList": [
                 "The Adults Are Talking",
                 "Selfless",

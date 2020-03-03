@@ -1,0 +1,15 @@
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+}
+.albumimg{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    transition: all 0.1s linear;
+}
+.albumimg:hover{
+    display: flex;
+    align-items: center;
+    transform: scale(1.1);
+}

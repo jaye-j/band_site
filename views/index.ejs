@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
@@ -25,7 +26,7 @@
                           </a>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">
-                                <%= albumNames[0] %>
+                                    <%= albumNames[0] %>
                             </a>
                             <a class="dropdown-item" href="#">
                                     <%= albumNames[1] %>
@@ -44,15 +45,106 @@
                             </a>
                         </li>
                       </ul>
-                      <!-- <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                      </form> -->
                     </div>
                   </nav>
-            <header>
-
-            </header>
+            <div class="header">
+                <div class="imgcontainer">
+                        <% if (coverImage.length > 0) { %>
+                            <% for (i=0; i< albumPhotos.length; i++) { %>
+                                <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                            <% } %>
+                            <% } %>
+                        <% if (coverImage.length > 0) { %>
+                        <% for (i=0; i< albumPhotos.length; i++) { %>
+                            <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                        <% } %>
+                        <% temp = coverImage.splice(0,1) %>
+                        <% coverImage.push(temp) %>
+                        <% } %>
+                </div>
+                <div class="imgcontainer">
+                        <% if (coverImage.length > 0) { %>
+                            <% for (i=0; i< albumPhotos.length; i++) { %>
+                                <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                            <% } %>
+                            <% } %>
+                        <% if (coverImage.length > 0) { %>
+                        <% for (i=0; i< albumPhotos.length; i++) { %>
+                            <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                        <% } %>
+                        <% temp = coverImage.splice(0,1) %>
+                        <% coverImage.push(temp) %>
+                        <% } %>
+                </div>
+                <div class="imgcontainer">
+                        <% if (coverImage.length > 0) { %>
+                            <% for (i=0; i< albumPhotos.length; i++) { %>
+                                <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                            <% } %>
+                            <% } %>
+                        <% if (coverImage.length > 0) { %>
+                        <% for (i=0; i< albumPhotos.length; i++) { %>
+                            <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                        <% } %>
+                        <% temp = coverImage.splice(0,1) %>
+                        <% coverImage.push(temp) %>
+                        <% } %>
+                </div>
+                <div class="imgcontainer">
+                        <% if (coverImage.length > 0) { %>
+                            <% for (i=0; i< albumPhotos.length; i++) { %>
+                                <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                            <% } %>
+                            <% } %>
+                        <% if (coverImage.length > 0) { %>
+                        <% for (i=0; i< albumPhotos.length; i++) { %>
+                            <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                        <% } %>
+                        <% temp = coverImage.splice(0,1) %>
+                        <% coverImage.push(temp) %>
+                        <% } %>
+                </div>
+                <div class="imgcontainer">
+                        <% if (coverImage.length > 0) { %>
+                            <% for (i=0; i< albumPhotos.length; i++) { %>
+                                <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                            <% } %>
+                            <% } %>
+                        <% if (coverImage.length > 0) { %>
+                        <% for (i=0; i< albumPhotos.length; i++) { %>
+                            <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                        <% } %>
+                        <% temp = coverImage.splice(0,1) %>
+                        <% coverImage.push(temp) %>
+                        <% } %>
+                </div>
+                <div class="imgcontainer">
+                        <% if (coverImage.length > 0) { %>
+                            <% for (i=0; i< albumPhotos.length; i++) { %>
+                                <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                            <% } %>
+                            <% } %>
+                        <% if (coverImage.length > 0) { %>
+                        <% for (i=0; i< albumPhotos.length; i++) { %>
+                            <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                        <% } %>
+                        <% temp = coverImage.splice(0,1) %>
+                        <% coverImage.push(temp) %>
+                        <% } %>
+                </div>
+                <div class="imgcontainer">
+                        <% if (coverImage.length > 0) { %>
+                            <% for (i=0; i< albumPhotos.length; i++) { %>
+                                <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                            <% } %>
+                            <% } %>
+                        <% if (coverImage.length > 0) { %>
+                        <% for (i=0; i< albumPhotos.length; i++) { %>
+                            <img class="albumimg" src="/images/<%= coverImage[i] %>" alt="Album cover <%= i %>">
+                        <% } %>
+                        <% } %>
+                </div>
+            </div>
       </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
