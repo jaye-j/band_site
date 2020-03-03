@@ -1,0 +1,113 @@
+{
+    "albums":[
+        {
+            "albumName": "Is This It",
+            "releaseDate": "July 30, 2001",
+            "coverImage": "../public/images/Is_This_It.jpg",
+            "songList": [
+                "Is This It",
+                "The Modern Age",
+                "Soma",
+                "Barely Legal",
+                "Someday",
+                "Alone, Together",
+                "Last Nite",
+                "Hard to Explain",
+                "New York City Cops",
+                "Trying Your Luck",
+                "Take It or Leave It"
+            ],
+            "summary": "Is This It is the debut studio album by American rock band the Strokes, first released on July 30, 2001, through RCA Records. It was recorded at Transporterraum in New York City with producer Gordon Raphael during March and April 2001. For their debut, the band strived to capture a simple sound that was not significantly enhanced in the studio. Building on their 2001 EP The Modern Age, the band members molded compositions largely through live takes during recording sessions, while songwriter and lead singer Julian Casablancas continued to detail the lives and relationships of urban youth."
+        },{
+            "albumName": "Room on Fire",
+            "releaseDate": "October 28, 2003",
+            "coverImage": "../public/images/Room_On_Fire.jpg",
+            "songList": [
+                "What Ever Happened?",
+                "Reptilia",
+                "Automatic Stop",
+                "12:51",
+                "You Talk Way Too Much",
+                "Between Love & Hate",
+                "Meet Me in the Bathroom",
+                "Under Control",
+                "The Way It Is",
+                "The End Has No End",
+                "I Can't Win"
+            ],
+            "summary": "Room on Fire is the second studio album by American rock band the Strokes, released on October 28, 2003, through RCA Records. The album features the return of producer Gordon Raphael from Is This It and consists of a slightly smoother sound than its predecessor; i.e. the bass guitar is less present except for several select moments when it becomes the focal point of the song. Its title is drawn from a lyric in 'Reptilia': 'The room is on fire as she's fixing her hair.'"
+        },{
+            "albumName": "First Impressions of Earth",
+            "releaseDate": "January 3, 2006",
+            "coverImage": "../public/images/First_Impressions_Of_Earth.jpg",
+            "songList": [
+                "You Only Live Once",
+                "Juicebox",
+                "Heart in a Cage",
+                "Razorblade",
+                "On the Other Side",
+                "Vision of Division",
+                "Ask Me Anything",
+                "Electricityscape",
+                "Killing Lies",
+                "Fear of Sleep",
+                "15 Minutes",
+                "Ize of the World",
+                "Evening Sun",
+                "Red Light"
+            ],
+            "summary": "First Impressions of Earth is the third studio album by American rock band the Strokes. It was released on January 3, 2006, through RCA Records. Three singles were released from the album: 'Juicebox', 'Heart in a Cage', and 'You Only Live Once'."
+        },{
+            "albumName": "Angles",
+            "releaseDate": "March 18, 2011",
+            "coverImage": "../public/images/Angels.jpg",
+            "songList": [
+                "Machu Picchu",
+                "Under Cover of Darkness",
+                "Two Kinds of Happiness",
+                "You're So Right",
+                "Taken for a Fool",
+                "Games",
+                "Call Me Back",
+                "Gratisfaction",
+                "Metabolism",
+                "Life Is Simple in the Moonlight"
+            ],
+            "summary": "Angles is the fourth studio album by American rock band the Strokes. It was released on March 18, 2011, through RCA Records. It was the group's first album in five years, following First Impressions of Earth (2006)."
+        },{
+            "albumName": "Comedown Machine",
+            "releaseDate": "March 26, 2013",
+            "coverImage": "../public/images/Comedown_Machine.jpg",
+            "songList": [
+                "Tap Out",
+                "All the Time",
+                "One Way Trigger",
+                "Welcome to Japan",
+                "80's Comedown Machine",
+                "50/50",
+                "Slow Animals",
+                "Partners in Crime",
+                "Chances",
+                "Happy Ending",
+                "Call It Fate, Call It Karma"
+            ],
+            "summary": "Comedown Machine is the fifth studio album by American rock band the Strokes. It was released on March 26, 2013, through RCA Records.[1] The band decided to pull a media blackout for the album, with no promotion in the form of television appearances, interviews, photoshoots, live shows, or tours. The cover artwork was designed to resemble an old RCA tape reel box."
+        },{
+            "albumName": "The New Abnormal",
+            "releaseDate": "April 10, 2020",
+            "coverImage": "../public/images/The_New_Abnormal.jpg",
+            "songList": [
+                "The Adults Are Talking",
+                "Selfless",
+                "Brooklyn Bridge to Chorus",
+                "Bad Decisions",
+                "Eternal Summer",
+                "At the Door",
+                "Why Are Sundays So Depressing",
+                "Not the Same Anymore",
+                "Ode to the Mets"
+            ],
+            "summary": "The New Abnormal is the upcoming sixth studio album by American rock band The Strokes. It will be released on April 10, 2020, through Cult and RCA Records. It will be their first album in seven years, following Comedown Machine (2013), and their first release since the Future Present Past EP (2016)."
+        }
+    ]
+}
