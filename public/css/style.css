@@ -1,0 +1,79 @@
+* {
+    font-family: 'Audiowide', cursive;
+}
+
+
+.checker{
+    background:linear-gradient(90deg,#FFF 50%,#000 0)0/5em,linear-gradient(#FFF 50%,#000 0)0/9% 5em;
+  background-blend-mode:exclusion
+}
+
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+}
+.albumimg{
+    display: flex;
+    align-items: center;
+    height: 95px;
+    transition: all 0.1s linear;
+}
+.albumimg:hover{
+    display: flex;
+    align-items: center;
+    transform: scale(1.1);
+}
+.logo{
+    height: 75px;
+}
+.dropdownimg{
+    height: 40px;
+}
+.album-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+.title-date-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-date-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.albumcover{
+    height: 200px;
+}
+.albumtitle{
+    font-size: 80px;
+    padding-right: 30px;
+}
+.albumrelease{
+    padding-right: 30px;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+}
+.songlist{
+    display: flex;
+    justify-content: center;
+}
+li{
+    padding: 6px;
+}
+.summary-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.summary{
+    font-size: 20px;
+    width: 800px;
+}
