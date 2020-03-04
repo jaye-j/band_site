@@ -20,7 +20,6 @@ router.get('/albums/:albumid', (req, res) => {
         urlNames = urlNames.concat(albumObj.shortName);
 
         if(albumObj.shortName == req.params.albumid){
-            console.log("i ran");
             albumName.push(albumObj.albumName);
             albumDate.push(albumObj.releaseDate);
             albumSongList.push(albumObj.songList);
