@@ -1,7 +1,9 @@
 * {
     font-family: 'Audiowide', cursive;
 }
-
+nav{
+    border-bottom: black solid 5px;
+}
 
 .checker{
     background:linear-gradient(90deg,#FFF 50%,#000 0)0/5em,linear-gradient(#FFF 50%,#000 0)0/9% 5em;
