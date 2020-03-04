@@ -4,7 +4,13 @@
 nav{
     border-bottom: black solid 5px;
 }
-
+main{
+    margin-bottom: 80px;
+    border-bottom: black solid 5px;
+}
+html{
+    background-color: #f8f9fa;
+}
 .checker{
     background:linear-gradient(90deg,#FFF 50%,#000 0)0/5em,linear-gradient(#FFF 50%,#000 0)0/9% 5em;
   background-blend-mode:exclusion
@@ -51,13 +57,21 @@ nav{
 
 .albumcover{
     height: 200px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .albumtitle{
-    font-size: 70px;
+    font-size: 60px;
     padding-right: 30px;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 3.5px;
+    -webkit-text-stroke-color: black;
 }
 .albumrelease{
     padding-right: 30px;
+    color: whitesmoke;
+    font-size: 25px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
 }
 .subtitle{
     display: flex;
@@ -69,6 +83,10 @@ nav{
 }
 li{
     padding: 6px;
+    transition: all 0.1s linear;
+}
+li:hover{
+    transform: scale(1.25);
 }
 .summary-container{
     display: flex;
@@ -78,4 +96,7 @@ li{
 .summary{
     font-size: 20px;
     width: 800px;
+}
+.bg-white{
+    background-color: white;
 }
