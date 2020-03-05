@@ -8,7 +8,7 @@ let feedbackData = require('../data/feedback.json');
 router.get('/api', (req, res) => {
     
     res.json(feedbackData)
-})
+});
 
 //request -> middleware -> handler
 //grabs form data from header in json
@@ -32,6 +32,22 @@ router.post('/api', (req, res) => {
     });
 
     console.log(req.body);
+});
+
+router.delete('/api/:id', (req, res) => {
+    
+    feedbackData.splice(req.params.id, 1);
+
+    fs.writeFile('data/feedback.json', JSON.stringify(feedbackData), 'utf8', (err) => {
+        
+        if(err){
+            console.log(err);
+        }
+
+        res.json(feedbackData);
+
+    });
+
 });
 
 
