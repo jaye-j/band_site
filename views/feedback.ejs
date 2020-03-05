@@ -5,12 +5,104 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-      
+      <main>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="/"><img class="logo" src="/misc/the_strokes_logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+            <ul class="navbar-nav mr-auto">
+                  <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Band Members
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Julian_Casablancas">
+                                  Julian Casablancas
+                            </a>
+                            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Nick_Valensi">
+                                  Nick Valensi
+                            </a>
+                            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Albert_Hammond_Jr.">
+                                  Albert Hammond Jr.
+                            </a>
+                            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Nikolai_Fraiture">
+                                  Nikolai Fraiture
+                            </a>
+                            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Fabrizio_Moretti">
+                              Fabrizio Moretti
+                        </a>
+                        </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Albums
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="/albums/<%= urlName[0] %>">
+                          <img class="dropdownimg" src="/images/<%= coverImage[0] %>" alt=""> <%= allAlbums[0] %>
+                  </a>
+                  <a class="dropdown-item" href="/albums/<%= urlName[1] %>">
+                          <img class="dropdownimg" src="/images/<%= coverImage[1] %>" alt=""> <%= allAlbums[1] %>
+                  </a>
+                  <a class="dropdown-item" href="/albums/<%= urlName[2] %>">
+                          <img class="dropdownimg" src="/images/<%= coverImage[2] %>" alt=""> <%= allAlbums[2] %>
+                  </a>
+                  <a class="dropdown-item" href="/albums/<%= urlName[3] %>">
+                          <img class="dropdownimg" src="/images/<%= coverImage[3] %>" alt=""> <%= allAlbums[3] %>
+                  </a>
+                  <a class="dropdown-item" href="/albums/<%= urlName[4] %>">
+                          <img class="dropdownimg" src="/images/<%= coverImage[4] %>" alt=""> <%= allAlbums[4] %>
+                  </a>
+                  <a class="dropdown-item" href="/albums/<%= urlName[5] %>">
+                          <img class="dropdownimg" src="/images/<%= coverImage[5] %>" alt=""> <%= allAlbums[5] %>
+                  </a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="/feedback">Feedback</a>
+            </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <h1 class="feedback-title">Send us feedback</h1>
+              <form class="feedback-form">
+                <div class="form-group">
+                  <label for="feedback-form-name">Name</label>
+                  <input type="text" class="form-control" id="feedback-form-name" placeholder="Enter your name">
+                </div>
+    
+                <div class="form-group">
+                  <label for="feedback-form-title">Title</label>
+                  <input type="text" class="form-control" id="feedback-form-title" placeholder="Title of your feedback">
+                </div>
+    
+                <div class="form-group">
+                    <label for="feedback-form-message">Message</label>
+                    <textarea type="text" placeholder="Enter your message, then hit the submit button"  class="form-control" id="feedback-form-message" rows="6"></textarea>
+                </div>
+                <button type="submit" class="button">Submit</button>
+              </form>
+            </div>
+            <aside class="col-sm-8">
+              <div class="maincontent feedback">
+                  <h2 class="feedback-recent">Recent Feedback</h2>
+                  <div class="feedback-messages"></div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

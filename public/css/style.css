@@ -100,3 +100,16 @@ li:hover{
 .bg-white{
     background-color: white;
 }
+
+.button{
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.feedback-title{
+    font-size: 30px;
+}
+.feedback-recent{
+    font-size: 30px;
+}
