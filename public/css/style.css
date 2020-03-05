@@ -81,11 +81,11 @@ html{
     display: flex;
     justify-content: center;
 }
-li{
+.lisongs{
     padding: 6px;
     transition: all 0.1s linear;
 }
-li:hover{
+.lisongs:hover{
     transform: scale(1.25);
 }
 .summary-container{
@@ -96,6 +96,8 @@ li:hover{
 .summary{
     font-size: 20px;
     width: 800px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
 }
 .bg-white{
     background-color: white;
@@ -107,9 +109,34 @@ li:hover{
     background-color: white;
     margin-bottom: 10px;
 }
-.feedback-title{
-    font-size: 30px;
+.feedback-title1{
+    font-size: 31px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: black solid 1px;
 }
 .feedback-recent{
-    font-size: 30px;
+    font-size: 31px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: black solid 1px;
+}
+.feedback-delete{
+    background-color: whitesmoke;
+    border: lightgray solid 2px;
+    border-radius: 5px;
+    margin: 2px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.feedback-name{
+    font-size: 17px;
+}
+.feedback-item1{
+    border: lightgray solid 1px;
+    border-radius: 10px;
+    padding: 2px;
+}
+.feedback-title{
+    font-size: 26px;
 }

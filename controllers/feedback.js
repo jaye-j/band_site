@@ -15,6 +15,8 @@ router.get('/feedback', (req, res) => {
     });
     
     res.render('feedback.ejs', {
+        pageTitle: "Feedback form",
+        pageID: "feedback",
         coverImage: albumPhotos,
         allAlbums: albumNames,
         urlName: urlNames
